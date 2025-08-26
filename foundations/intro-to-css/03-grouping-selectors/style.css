@@ -3,3 +3,12 @@
   font-size: 28px;
 }
 
+.text-first {
+  background-color: #000;
+  color: #fff;
+}
+
+.text-second {
+  background-color: #9acd32;
+  color: #000;
+}
