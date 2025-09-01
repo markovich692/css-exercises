@@ -24,9 +24,13 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  padding: 14px 12px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 12px 14px;
+  margin: 4px auto;
 }
