@@ -25,6 +25,7 @@ body {
 .button-container {
   background: #e3f4ff;
   padding: 14px 12px;
+  text-align: center;
 }
 
 button {
