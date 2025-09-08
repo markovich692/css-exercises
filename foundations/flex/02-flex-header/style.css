@@ -1,5 +1,17 @@
-.header  {
-  font-family: monospace;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.header {
+  font-family: monospace, sans-serif;
   background: papayawhip;
 }
 
