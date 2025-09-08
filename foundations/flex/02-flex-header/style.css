@@ -13,6 +13,8 @@ html {
 .header {
   font-family: monospace, sans-serif;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
