@@ -25,6 +25,16 @@ body {
   list-style: none;
 }
 
+.link:link,
+.link:visited {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  cursor: pointer;
+}
+
 img {
   width: 600px;
 }
