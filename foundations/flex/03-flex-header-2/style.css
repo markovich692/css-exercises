@@ -58,6 +58,13 @@ a {
   color: rebeccapurple;
 }
 
+.nav__second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
