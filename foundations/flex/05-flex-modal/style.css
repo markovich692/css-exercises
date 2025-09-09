@@ -28,17 +28,6 @@ body {
   justify-content: center;
 }
 
-.modal {
-  background: white;
-  width: 480px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
-  padding: 14px;
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-}
-
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -51,6 +40,23 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+}
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .close-button {
