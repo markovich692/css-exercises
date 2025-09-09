@@ -29,11 +29,20 @@ body {
 
 .plant__details {
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
