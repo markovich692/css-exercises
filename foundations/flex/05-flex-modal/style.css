@@ -56,7 +56,14 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 10px;
+}
+
+.question {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
 }
 
 .close-button {
