@@ -21,6 +21,12 @@ body {
   margin-bottom: 32px;
 }
 
+.plant__information {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
 img {
   width: 100px;
   height: 100px;
