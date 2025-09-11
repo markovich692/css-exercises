@@ -36,6 +36,18 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 10px;
+}
+
+.links {
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 6px;
 }
 
 .cards {
