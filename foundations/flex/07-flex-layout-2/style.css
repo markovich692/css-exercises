@@ -37,8 +37,8 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  box-sizing: border-box;
   padding: 10px;
+  flex: 0 0 auto;
 }
 
 .links {
