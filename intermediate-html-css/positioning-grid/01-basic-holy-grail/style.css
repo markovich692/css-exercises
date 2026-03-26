@@ -9,8 +9,8 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
-  display: grid;
-  grid-template: 100px 100px 500px 100px/ 100px 300px;
+  display: inline-grid;
+  grid-template: 110px 100px 500px 100px/ 400px 800px;
   gap: 15px;
 }
 
@@ -30,6 +30,7 @@ html {
 
 .sidebar {
   background-color: #005b94;
+  grid-row: 2/4;
 }
 
 .nav {
@@ -38,6 +39,7 @@ html {
 
 .article {
   background-color: #7e1dc3;
+  padding: 45px 15px;
 }
 
 .footer {
@@ -46,7 +48,7 @@ html {
 }
 
 .article p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif;
   color: white;
   text-align: left;
