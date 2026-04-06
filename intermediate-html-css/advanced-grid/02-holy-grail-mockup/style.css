@@ -99,11 +99,15 @@
 
 .header {
   grid-column: span 2;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
 }
 
 .menu ul {
   list-style: none;
   display: grid;
+  grid-auto-flow: column;
 }
 
 .nav ul {
@@ -133,4 +137,12 @@
 
 .card {
   height: 200px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.footer {
+  grid-column: span 2;
 }
