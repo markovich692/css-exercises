@@ -101,7 +101,19 @@
   grid-column: span 2;
 }
 
-.menu ul,
+.menu ul {
+  list-style: none;
+  display: grid;
+}
+
 .nav ul {
   list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.article {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
