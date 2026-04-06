@@ -117,3 +117,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.sidebar {
+  grid-row: 2/4;
+  display: grid;
+  gap: 50px;
+}
